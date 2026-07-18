@@ -1,0 +1,33 @@
+CROP TYPE:
+crop_type  total_loans  default_rate_pct
+Sugarcane          624              27.6
+   Cotton          550              26.2
+    Onion          339              21.8
+    Jowar          515              19.6
+    Wheat          570              18.2
+  Soybean          602              16.6
+
+SEASON:
+season  total_loans  default_rate_pct
+Kharif         1804              24.9
+  Rabi         1396              17.6
+
+LOAN-TO-LAND RATIO QUARTILE:
+ ratio_quartile  total_loans  default_rate_pct
+              1          800              18.6
+              2          800              18.1
+              3          800              20.6
+              4          800              29.5
+
+PRIOR DEFAULT HISTORY:
+ borrower_history  total_loans  default_rate_pct
+Has prior default          528              33.1
+ No prior default         2672              19.5
+
+REGION RANKING:
+   region  total_loans  default_rate_pct  risk_rank
+ Baramati          659              24.1          1
+    Daund          664              23.2          2
+  Phaltan          626              22.0          3
+Malshiras          643              20.1          4
+  Indapur          608              18.9          5
