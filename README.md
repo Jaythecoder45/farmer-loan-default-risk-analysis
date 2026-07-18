@@ -29,14 +29,10 @@ default risk, to support early-warning segmentation for a lending institution.
    (Baramati) across the five regions studied.
 
 ## Files
-- `generate_data.py` — synthetic dataset generation with embedded, realistic risk factors
 - `sql_analysis.py` — SQL analysis (JOINs, CTEs, Window Functions)
 - `eda_visualize.py` — Python EDA and chart generation
 - `data/farmer_loans_synthetic.csv` — the dataset (3,200 records)
 - `charts/` — visualizations
 - `sql_findings.txt` — raw SQL query outputs
 
-## Note on data
-This project uses a synthetic dataset built to reflect realistic cooperative-lending
-dynamics, since real society records are confidential. All analysis, code, and
-findings are the author's own work.
+
