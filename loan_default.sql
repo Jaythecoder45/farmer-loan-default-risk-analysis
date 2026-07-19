@@ -1,6 +1,7 @@
 SELECT * FROM loan_default.fl;
 
 
+
 SELECT
     fl.crop_type,
     COUNT(*) AS total_loans,
@@ -18,6 +19,8 @@ SELECT season,
        ROUND(100.0 * SUM(CASE WHEN repayment_status='Defaulted' THEN 1 ELSE 0 END)/COUNT(*),1) AS default_rate_pct
 FROM fl
 GROUP BY season;
+
+
 
 WITH ranked AS (
     SELECT
