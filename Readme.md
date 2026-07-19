@@ -148,12 +148,3 @@ secondary signal rather than a primary driver.
 
 ---
 
-## Data Note
-
-Real cooperative-society loan records are confidential and were not used in
-this analysis. The dataset was synthetically generated to reflect realistic
-patterns in loan sizing, crop/season mix, and repayment behavior, informed by
-direct exposure to loan processing during a Data Entry internship at a
-farmer cooperative society. All code, queries, and analysis are original work
-— see `generate_data.py`, `sql_analysis.py`, and `eda_visualize.py` in this
-repository.
