@@ -66,7 +66,7 @@ plt.close()
 
 
     
-![png](output_3_0.png)
+![png](charts/default_rate_by_crop.png)
     
 
 
