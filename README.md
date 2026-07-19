@@ -31,7 +31,7 @@ default risk, to support early-warning segmentation for a lending institution.
 
 
 ## Files
-- `sql_analysis.py` — SQL analysis (JOINs, CTEs, Window Functions)
+- `loan_default.sql` — SQL analysis (JOINs, CTEs, Window Functions)
 - `eda_visualize.ipynb` — Python EDA and chart generation
 - `data/farmer_loans_synthetic.csv` — the dataset (3,200 records)
 - `charts/` — visualizations
