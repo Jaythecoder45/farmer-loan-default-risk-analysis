@@ -1,5 +1,6 @@
 SELECT * FROM loan_default.fl;
 
+
 SELECT
     fl.crop_type,
     COUNT(*) AS total_loans,
@@ -9,6 +10,7 @@ JOIN fl f ON f.farmer_id = fl.farmer_id
 GROUP BY fl.crop_type
 HAVING COUNT(*) > 50
 ORDER BY default_rate_pct DESC;
+
 
 
 SELECT season,
@@ -33,6 +35,8 @@ FROM ranked
 GROUP BY ratio_quartile
 ORDER BY ratio_quartile;
 
+
+
 SELECT
     CASE WHEN f.prior_defaults > 0 THEN 'Has prior default' ELSE 'No prior default' END AS borrower_history,
     COUNT(*) AS total_loans,
@@ -40,6 +44,8 @@ SELECT
 FROM fl
 JOIN fl f ON f.farmer_id = fl.farmer_id
 GROUP BY borrower_history;
+
+
 
 WITH region_stats AS (
     SELECT
